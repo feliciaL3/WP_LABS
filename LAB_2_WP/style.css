@@ -141,7 +141,7 @@ button {
 .order-image {
     margin-top: 20px; /* Adjust the margin as needed */
     max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    max-height: 300px; /* Set the maximum height for the image */
+    max-height: 400px; /* Set the maximum height for the image */
     border-radius: 10px; /* Add border radius if desired */
 }
 /* Add styling for the image after the "Make a Order" button */
