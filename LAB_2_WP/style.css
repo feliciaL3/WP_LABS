@@ -1,0 +1,150 @@
+body {
+    background-color: #ffd9bf; /* Light orange background color */
+}
+  
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff6b6b; /* Pink color for the logo */
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.banner {
+    overflow: auto;
+}
+
+.banner img {
+    float: right;
+    margin-right: 20px;
+    width: 450px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff6b6b; /* Pink color for the heading */
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.stat {
+    text-align: center;
+    flex: 1;
+}
+
+.stat h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Add some top margin */
+
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success {
+    background-color: #ffb6c1; /* Light pink background for the button */
+    color: #ff6b6b; /* Pink text color for the button */
+    width: 200px;
+    height: 100px;
+}
+
+.success:hover {
+    background-color: #ffccda; /* Lighter pink background on hover */
+}
+
+.call {
+    background-color: #ffd9bf; /* Light orange background for the button */
+    box-shadow: 2px 2px 2px #ff6b6b; /* Pink box shadow for the button */
+    border: 2px solid #ff6b6b; /* Pink border for the button */
+    color: #ff6b6b; /* Pink text color for the button */
+    width: 200px;
+    height: 100px;
+}
+
+.call:hover {
+    background-color: #ffe3cc; /* Lighter orange background on hover */
+}
+
+/* Navigation styles */
+.nav li a {
+    color: #ff9966; /* Pink with orange mixed color for the navigation links */
+    text-decoration: none;
+    position: relative;
+}
+
+.nav li a:hover {
+    color: #ffcc99; /* Lighter mixed color on hover */
+}
+
+.nav li::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #ff9966; /* Pink with orange mixed color for the line */
+    transition: width 0.3s;
+}
+
+.nav li:hover::after {
+    width: 100%;
+}
+
+.boxed {
+    border: 2px solid #ff6b6b; /* Pink border for the box */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Add styling for the image after the "Make a Order" button */
+.order-image {
+    margin-top: 20px; /* Adjust the margin as needed */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 300px; /* Set the maximum height for the image */
+    border-radius: 10px; /* Add border radius if desired */
+}
+/* Add styling for the image after the "Make a Order" button */
+.image-container {
+    text-align: right; /* Align the image to the right within the container */
+}
