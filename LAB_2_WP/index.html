@@ -8,6 +8,7 @@
   <!-- CHANGE THESE VALUES -->
   <link rel="stylesheet" href="reset.css" />
   <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
@@ -19,9 +20,11 @@
       <div class="nav">
         <ul>
           <li class="boxed"><a href="#">HOME</a></li>
-          <li class="boxed"><a href="#">CAKES</a></li>
-          <li class="boxed"><a href="#">ABOUT US</a></li>
+          <li class="boxed"><a href="#stats">ABOUT US</a></li>
+          <li class="boxed"><a href="#products">CAKES</a></li>
           <li class="boxed"><a href="#contacts">CONTACT US</a></li>
+          <li class="boxed"><a href="#addresses">ADDRESSES</a></li>
+
 
 
         </ul>
@@ -32,16 +35,24 @@
       alt="A beautiful display of delicious cakes" style="width: 400px; height: 500px;">
       <div class="text">
         <h1>INDULGE YOUR SWEET TOOTH WITH IRRESISTIBLE CAKES</h1>
-        <h2>Explore our handcrafted selection of delightful cakes that bring joy to every occasion.</h2>
+        <p class="welcome-text">Welcome to Caky, your go-to destination for delicious and delightful cakes. </p>
+        <p class="welcome-text">Our journey began with a passion for baking and a commitment to creating </p>
+        <p class="welcome-text">mouthwatering, high-quality cakes that leave a lasting impression.  </p>
+        <p class="welcome-text">Each cake in our collection is a result of careful craftsmanship,
+        <p class="welcome-text"> using the finest ingredients to ensure a truly indulgent experience.</p>
+
       </div>
       <br>
       <br>
-      <button class="success">Explore Our Cake Collection</button>
+      <button class="success">Our Cake Collection</button>
       <button class="call">Make a Order</button>
-      <img src="file:///C:/Users/User/Desktop/99e001_af201bfa252149cd97f53c45de10b2a9~mv2.webp" alt="Bento Cake" class="order-image">
 
     </div>
+
+              <!-- Statistics Section -->
+
     <br>
+    <div id="stats">
     <div class="stats">
       <p>Our cake shop in numbers:</p>
       <div class="stat">
@@ -63,6 +74,8 @@
     </div>
   </div>
 
+
+  
           <!-- Products Section -->
           <main>
             <div id="products">
@@ -100,7 +113,62 @@
                 </div>
             </div>
         </main>
+  
 
+          <!--  The Most  popular Products Section -->
+          <main>
+            <div id="popularproducts">
+                <div class="intro-header">
+                    <h3>DISCOVER OUR MOST POPULAR PRODUCTS</h3>
+                </div>
+
+                <div class="intro-paragraph">
+                    <p> Explore our most popular cakes collection now and</p>
+                    <p>experience the magic of our sweet creations.</p>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <img src="assets/cake4.jpg" alt="cake1" style="width:100%">
+                        <h1>CLASSIC  CAKE</h1>
+                        <p class="price">$25.99</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/cake5.jpg" alt="cake2" style="width:100%">
+                        <h1>CAKE DELIGHT</h1>
+                        <p class="price">$14.99</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/cake6.jpg" alt="sweet1" style="width:100%">
+                        <h1>CAKE DELICIOUSNESS</h1>
+                        <p class="price">$15.99</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        
+    <!-- Addresses Section -->
+        <div id="addresses">
+          <div class="intro-header">
+              <h3>WHERE TO FIND US</h3>
+          </div>
+      
+          <div class="intro-paragraph">
+              <p>Visit our locations to satisfy your sweet cravings. Find us at the following addresses:</p>
+              <p class="address">123 Sweet Street, Cityville</p>
+              <p class="address">456 Sugar Avenue, Sweetland</p>
+          </div>
+      </div>
+      
+
+    <!-- Contacts Section -->
+        <div id="contacts">
   <div class="contacts">
     <h2>Contact Us</h2>
     <p>If you have any questions or inquiries, feel free to contact us:</p>
@@ -110,6 +178,8 @@
       <p>Phone: +1 (123) 456-7890</p>
     </div>
   </div>
+
+
   <footer>
     <p>SWEETTREATS.CO &copy; 2024. All rights reserved.</p>
 </footer>
