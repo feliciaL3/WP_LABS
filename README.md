@@ -1,6 +1,7 @@
 # WP_LABS
 
-Sections:
+## Sections:
+
 Home Banner:
 
 Purpose: Introduce users to the world of Caky with an enticing image and a welcoming headline.
