@@ -1,5 +1,5 @@
 body {
-    background-color: #ffd9bf; /* Light orange background color */
+    background-color: #f9ede3; /* Light orange background color */
 }
   
 .container {
@@ -17,7 +17,7 @@ body {
 .logo {
     font-size: 36px;
     font-weight: bold;
-    color: #ff6b6b; /* Pink color for the logo */
+    color:#ff6b6b; /* Pink color for the logo */
 }
 
 .nav ul {
@@ -46,6 +46,12 @@ body {
     font-weight: bold;
     margin-bottom: 20px;
     color: #ff6b6b; /* Pink color for the heading */
+}
+
+
+/* Add a new style for the welcome text */
+.welcome-text {
+  color: #555; /* Change to the color you prefer */
 }
 
 .stats {
@@ -83,27 +89,29 @@ button {
 }
 
 .success {
-    background-color: #ffb6c1; /* Light pink background for the button */
-    color: #ff6b6b; /* Pink text color for the button */
-    width: 200px;
+    background-color: #ffd9bf; /* Light pink background for the button */
+    box-shadow: 2px 2px 2px #ff6b6b; /* Pink box shadow for the button */
+    border: 2px solid #ff6b6b; /* Pink border for the button */
+    color: #000000; /* Pink text color for the button */
+    width: 200px; /* Set a fixed width for the button */
     height: 100px;
 }
 
 .success:hover {
-    background-color: #ffccda; /* Lighter pink background on hover */
+    background-color: #ffe3cc; /* Lighter pink background on hover */
 }
 
 .call {
     background-color: #ffd9bf; /* Light orange background for the button */
     box-shadow: 2px 2px 2px #ff6b6b; /* Pink box shadow for the button */
     border: 2px solid #ff6b6b; /* Pink border for the button */
-    color: #ff6b6b; /* Pink text color for the button */
-    width: 200px;
+    color: #0d0d0d; /* Pink text color for the button */
+    width: 200px; /* Set a fixed width for the button */
     height: 100px;
 }
 
 .call:hover {
-    background-color: #ffe3cc; /* Lighter orange background on hover */
+    background-color: #f2e8e0; /* Lighter orange background on hover */
 }
 
 /* Navigation styles */
@@ -242,6 +250,91 @@ button {
   }
   
 
+  /* Common styles for section headers. FOr the find us title */
+.intro-header {
+  margin-bottom: 20px;
+  font-size: 24px; /* Set a common font size */
+  color: #ff6b6b; /* Set a common color for the section headers */
+}
+
+
+/*  Popular Products Section */
+#popularproducts {
+  padding: 50px 0;
+  background-color: #fff; /* White background color for the products section */
+  text-align: center;
+}
+
+.intro-header {
+  margin-bottom: 20px;
+}
+
+.intro-paragraph {
+  font-size: 18px;
+  color: #555; /* Dark gray text color for the introduction paragraph */
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 10px 10px 0 0;
+}
+
+.card h1 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.price {
+  color: #ff6b6b; /* Pink color for the price */
+  font-weight: bold;
+}
+
+button {
+  background-color: #ff6b6b; /* Pink background color for the button */
+  color: #fff; /* White text color for the button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff4d4d; /* Darker pink background on hover */
+}
+
+/* Responsive styles for cards on smaller screens */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+/* Common styles for section headers. FOr the find us title */
+.intro-header {
+margin-bottom: 20px;
+font-size: 24px; /* Set a common font size */
+color: #ff6b6b; /* Set a common color for the section headers */
+}
+
   /* Add a line between Products and Contact Us sections */
 #products {
     border-bottom: 1px solid #ccc; /* Gray border at the bottom of the products section */
@@ -254,3 +347,33 @@ button {
     text-align: center; /* Center text within the contacts div */
     border-top: 1px solid #ccc; /* Gray border at the top of the contacts section */
   }
+
+
+  /* Addresses Section */
+#addresses {
+  padding: 50px 0;
+  background-color: #fffcf9; /* Light orange background color for the addresses section */
+  text-align: center;
+}
+
+#addresses .intro-header {
+  margin-bottom: 20px;
+}
+
+#addresses .intro-paragraph {
+  font-size: 18px;
+  color: #555; /* Dark gray text color for the introduction paragraph */
+  margin-bottom: 40px;
+}
+
+#addresses .address {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #ff6b6b; /* Pink color for addresses */
+}
+
+
+
+
+
+
