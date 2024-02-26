@@ -55,6 +55,7 @@ body {
 }
 
 .stats {
+    color: #555;
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
@@ -63,6 +64,7 @@ body {
 }
 
 .stat {
+    color: #555;
     text-align: center;
     flex: 1;
 }
@@ -89,10 +91,10 @@ button {
 }
 
 .success {
-    background-color: #ffd9bf; /* Light pink background for the button */
+    background-color: #ffe6d6; /* Light pink background for the button */
     box-shadow: 2px 2px 2px #ff6b6b; /* Pink box shadow for the button */
     border: 2px solid #ff6b6b; /* Pink border for the button */
-    color: #000000; /* Pink text color for the button */
+    color: #555; /* Pink text color for the button */
     width: 200px; /* Set a fixed width for the button */
     height: 100px;
 }
@@ -102,10 +104,10 @@ button {
 }
 
 .call {
-    background-color: #ffd9bf; /* Light orange background for the button */
+    background-color: #ffe6d6; /* Light orange background for the button */
     box-shadow: 2px 2px 2px #ff6b6b; /* Pink box shadow for the button */
     border: 2px solid #ff6b6b; /* Pink border for the button */
-    color: #0d0d0d; /* Pink text color for the button */
+    color: #555; /* Pink text color for the button */
     width: 200px; /* Set a fixed width for the button */
     height: 100px;
 }
@@ -328,6 +330,44 @@ button:hover {
 }
 
 
+
+
+
+/* Frequently Asked Questions Section */
+#faq {
+  padding: 50px 0;
+  background-color: #fff; /* White background color for the FAQ section */
+  text-align: center;
+}
+
+.faq-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.faq-item {
+  width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.faq-item h4 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #555;
+  padding: 0 20px;
+}
+
+
+
+
 /* Common styles for section headers. FOr the find us title */
 .intro-header {
 margin-bottom: 20px;
@@ -351,19 +391,19 @@ color: #ff6b6b; /* Set a common color for the section headers */
 
   /* Addresses Section */
 #addresses {
-  padding: 50px 0;
-  background-color: #fffcf9; /* Light orange background color for the addresses section */
+  padding: 36px ;
+  background-color: #fff; /* Light orange background color for the addresses section */
   text-align: center;
 }
 
 #addresses .intro-header {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #addresses .intro-paragraph {
   font-size: 18px;
   color: #555; /* Dark gray text color for the introduction paragraph */
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 #addresses .address {
@@ -372,6 +412,24 @@ color: #ff6b6b; /* Set a common color for the section headers */
   color: #ff6b6b; /* Pink color for addresses */
 }
 
+
+/* Add styles for the scroll-to-top link */
+.scroll-to-top {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff6b6b; /* Set your preferred background color */
+  color: #fff; /* Set your preferred text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+  background-color: #ff4d4d; /* Set your preferred background color on hover */
+}
 
 
 
