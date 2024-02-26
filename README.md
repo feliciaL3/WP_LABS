@@ -1,5 +1,10 @@
 # WP_LABS
 
+
+# Project README: Caky - Delicious Cakes Landing Page
+
+
+
 ## Sections:
 
 Home Banner:
